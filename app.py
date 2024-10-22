@@ -13,4 +13,4 @@ def register():
     return f'Registered {name} with email {email}'
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8090)
+    app.run(host='0.0.0.0', port=5001)
